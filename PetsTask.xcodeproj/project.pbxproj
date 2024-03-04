@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		FC871F222B95C08E004C3AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F212B95C08E004C3AE4 /* AppDelegate.swift */; };
 		FC871F242B95C08E004C3AE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F232B95C08E004C3AE4 /* SceneDelegate.swift */; };
-		FC871F262B95C08E004C3AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F252B95C08E004C3AE4 /* ViewController.swift */; };
-		FC871F292B95C08E004C3AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC871F272B95C08E004C3AE4 /* Main.storyboard */; };
+		FC871F262B95C08E004C3AE4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F252B95C08E004C3AE4 /* TableViewController.swift */; };
 		FC871F2B2B95C08F004C3AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC871F2A2B95C08F004C3AE4 /* Assets.xcassets */; };
 		FC871F2E2B95C08F004C3AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC871F2C2B95C08F004C3AE4 /* LaunchScreen.storyboard */; };
+		FC871F3A2B95C0FD004C3AE4 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F392B95C0FD004C3AE4 /* Pet.swift */; };
+		FC871F3C2B95C188004C3AE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F3B2B95C188004C3AE4 /* NetworkManager.swift */; };
+		FC871F3F2B95C285004C3AE4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F3E2B95C285004C3AE4 /* Alamofire */; };
+		FC871F412B95C285004C3AE4 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F402B95C285004C3AE4 /* AlamofireDynamic */; };
+		FC871F432B95D999004C3AE4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F422B95D999004C3AE4 /* DetailViewController.swift */; };
+		FC871F462B95DBCF004C3AE4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F452B95DBCF004C3AE4 /* SnapKit */; };
+		FC871F482B95DBCF004C3AE4 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F472B95DBCF004C3AE4 /* SnapKit-Dynamic */; };
+		FC871F4E2B95DE52004C3AE4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F4D2B95DE52004C3AE4 /* Kingfisher */; };
+		FC871F502B95E6F6004C3AE4 /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F4F2B95E6F6004C3AE4 /* AddPetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC871F1E2B95C08E004C3AE4 /* PetsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC871F212B95C08E004C3AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC871F232B95C08E004C3AE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC871F252B95C08E004C3AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC871F282B95C08E004C3AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC871F252B95C08E004C3AE4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FC871F2A2B95C08F004C3AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC871F2D2B95C08F004C3AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC871F2F2B95C08F004C3AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC871F392B95C0FD004C3AE4 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		FC871F3B2B95C188004C3AE4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FC871F422B95D999004C3AE4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FC871F4F2B95E6F6004C3AE4 /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC871F462B95DBCF004C3AE4 /* SnapKit in Frameworks */,
+				FC871F3F2B95C285004C3AE4 /* Alamofire in Frameworks */,
+				FC871F412B95C285004C3AE4 /* AlamofireDynamic in Frameworks */,
+				FC871F482B95DBCF004C3AE4 /* SnapKit-Dynamic in Frameworks */,
+				FC871F4E2B95DE52004C3AE4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,50 @@
 		FC871F202B95C08E004C3AE4 /* PetsTask */ = {
 			isa = PBXGroup;
 			children = (
-				FC871F212B95C08E004C3AE4 /* AppDelegate.swift */,
-				FC871F232B95C08E004C3AE4 /* SceneDelegate.swift */,
-				FC871F252B95C08E004C3AE4 /* ViewController.swift */,
-				FC871F272B95C08E004C3AE4 /* Main.storyboard */,
+				FC871F382B95C0E7004C3AE4 /* Network */,
+				FC871F372B95C0DA004C3AE4 /* Models */,
+				FC871F352B95C0C4004C3AE4 /* Supporting */,
+				FC871F362B95C0CE004C3AE4 /* VCs */,
 				FC871F2A2B95C08F004C3AE4 /* Assets.xcassets */,
 				FC871F2C2B95C08F004C3AE4 /* LaunchScreen.storyboard */,
 				FC871F2F2B95C08F004C3AE4 /* Info.plist */,
 			);
 			path = PetsTask;
+			sourceTree = "<group>";
+		};
+		FC871F352B95C0C4004C3AE4 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FC871F212B95C08E004C3AE4 /* AppDelegate.swift */,
+				FC871F232B95C08E004C3AE4 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FC871F362B95C0CE004C3AE4 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				FC871F252B95C08E004C3AE4 /* TableViewController.swift */,
+				FC871F4F2B95E6F6004C3AE4 /* AddPetViewController.swift */,
+				FC871F422B95D999004C3AE4 /* DetailViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		FC871F372B95C0DA004C3AE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC871F392B95C0FD004C3AE4 /* Pet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC871F382B95C0E7004C3AE4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC871F3B2B95C188004C3AE4 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,13 @@
 			dependencies = (
 			);
 			name = PetsTask;
+			packageProductDependencies = (
+				FC871F3E2B95C285004C3AE4 /* Alamofire */,
+				FC871F402B95C285004C3AE4 /* AlamofireDynamic */,
+				FC871F452B95DBCF004C3AE4 /* SnapKit */,
+				FC871F472B95DBCF004C3AE4 /* SnapKit-Dynamic */,
+				FC871F4D2B95DE52004C3AE4 /* Kingfisher */,
+			);
 			productName = PetsTask;
 			productReference = FC871F1E2B95C08E004C3AE4 /* PetsTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,11 @@
 				Base,
 			);
 			mainGroup = FC871F152B95C08E004C3AE4;
+			packageReferences = (
+				FC871F3D2B95C285004C3AE4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FC871F442B95DBCF004C3AE4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FC871F4C2B95DE52004C3AE4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FC871F1F2B95C08E004C3AE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +190,6 @@
 			files = (
 				FC871F2E2B95C08F004C3AE4 /* LaunchScreen.storyboard in Resources */,
 				FC871F2B2B95C08F004C3AE4 /* Assets.xcassets in Resources */,
-				FC871F292B95C08E004C3AE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC871F262B95C08E004C3AE4 /* ViewController.swift in Sources */,
+				FC871F262B95C08E004C3AE4 /* TableViewController.swift in Sources */,
+				FC871F3A2B95C0FD004C3AE4 /* Pet.swift in Sources */,
+				FC871F3C2B95C188004C3AE4 /* NetworkManager.swift in Sources */,
+				FC871F502B95E6F6004C3AE4 /* AddPetViewController.swift in Sources */,
+				FC871F432B95D999004C3AE4 /* DetailViewController.swift in Sources */,
 				FC871F222B95C08E004C3AE4 /* AppDelegate.swift in Sources */,
 				FC871F242B95C08E004C3AE4 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC871F272B95C08E004C3AE4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC871F282B95C08E004C3AE4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC871F2C2B95C08F004C3AE4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +354,6 @@
 				INFOPLIST_FILE = PetsTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,9 +363,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.coded.PetsTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +384,6 @@
 				INFOPLIST_FILE = PetsTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,9 +393,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.coded.PetsTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +425,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC871F3D2B95C285004C3AE4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		FC871F442B95DBCF004C3AE4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		FC871F4C2B95DE52004C3AE4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC871F3E2B95C285004C3AE4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC871F3D2B95C285004C3AE4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FC871F402B95C285004C3AE4 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC871F3D2B95C285004C3AE4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		FC871F452B95DBCF004C3AE4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC871F442B95DBCF004C3AE4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FC871F472B95DBCF004C3AE4 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC871F442B95DBCF004C3AE4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		FC871F4D2B95DE52004C3AE4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC871F4C2B95DE52004C3AE4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC871F162B95C08E004C3AE4 /* Project object */;
 }
