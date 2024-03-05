@@ -21,6 +21,9 @@
 		FC871F482B95DBCF004C3AE4 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F472B95DBCF004C3AE4 /* SnapKit-Dynamic */; };
 		FC871F4E2B95DE52004C3AE4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FC871F4D2B95DE52004C3AE4 /* Kingfisher */; };
 		FC871F502B95E6F6004C3AE4 /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC871F4F2B95E6F6004C3AE4 /* AddPetViewController.swift */; };
+		FC9C32282B96F8E30004B569 /* EurekaAddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C32272B96F8E30004B569 /* EurekaAddPetViewController.swift */; };
+		FC9C322B2B96F9350004B569 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = FC9C322A2B96F9350004B569 /* Eureka */; };
+		FC9C322D2B9730230004B569 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C322C2B9730230004B569 /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,8 @@
 		FC871F3B2B95C188004C3AE4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FC871F422B95D999004C3AE4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FC871F4F2B95E6F6004C3AE4 /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
+		FC9C32272B96F8E30004B569 /* EurekaAddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaAddPetViewController.swift; sourceTree = "<group>"; };
+		FC9C322C2B9730230004B569 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 				FC871F412B95C285004C3AE4 /* AlamofireDynamic in Frameworks */,
 				FC871F482B95DBCF004C3AE4 /* SnapKit-Dynamic in Frameworks */,
 				FC871F4E2B95DE52004C3AE4 /* Kingfisher in Frameworks */,
+				FC9C322B2B96F9350004B569 /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				FC871F252B95C08E004C3AE4 /* TableViewController.swift */,
+				FC9C32272B96F8E30004B569 /* EurekaAddPetViewController.swift */,
 				FC871F4F2B95E6F6004C3AE4 /* AddPetViewController.swift */,
 				FC871F422B95D999004C3AE4 /* DetailViewController.swift */,
 			);
@@ -106,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				FC871F392B95C0FD004C3AE4 /* Pet.swift */,
+				FC9C322C2B9730230004B569 /* Tag.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				FC871F452B95DBCF004C3AE4 /* SnapKit */,
 				FC871F472B95DBCF004C3AE4 /* SnapKit-Dynamic */,
 				FC871F4D2B95DE52004C3AE4 /* Kingfisher */,
+				FC9C322A2B96F9350004B569 /* Eureka */,
 			);
 			productName = PetsTask;
 			productReference = FC871F1E2B95C08E004C3AE4 /* PetsTask.app */;
@@ -173,6 +182,7 @@
 				FC871F3D2B95C285004C3AE4 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				FC871F442B95DBCF004C3AE4 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				FC871F4C2B95DE52004C3AE4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FC9C32292B96F9350004B569 /* XCRemoteSwiftPackageReference "Eureka" */,
 			);
 			productRefGroup = FC871F1F2B95C08E004C3AE4 /* Products */;
 			projectDirPath = "";
@@ -202,9 +212,11 @@
 			files = (
 				FC871F262B95C08E004C3AE4 /* TableViewController.swift in Sources */,
 				FC871F3A2B95C0FD004C3AE4 /* Pet.swift in Sources */,
+				FC9C32282B96F8E30004B569 /* EurekaAddPetViewController.swift in Sources */,
 				FC871F3C2B95C188004C3AE4 /* NetworkManager.swift in Sources */,
 				FC871F502B95E6F6004C3AE4 /* AddPetViewController.swift in Sources */,
 				FC871F432B95D999004C3AE4 /* DetailViewController.swift in Sources */,
+				FC9C322D2B9730230004B569 /* Tag.swift in Sources */,
 				FC871F222B95C08E004C3AE4 /* AppDelegate.swift in Sources */,
 				FC871F242B95C08E004C3AE4 /* SceneDelegate.swift in Sources */,
 			);
@@ -451,6 +463,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		FC9C32292B96F9350004B569 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -478,6 +498,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC871F4C2B95DE52004C3AE4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		FC9C322A2B96F9350004B569 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC9C32292B96F9350004B569 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

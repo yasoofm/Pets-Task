@@ -13,6 +13,7 @@ class NetworkManager{
     private let baseURL = "https://coded-pets-api-crud.eapi.joincoded.com/"
     private let getPetsEndpoint = "pets"
     private let postPetEndpoint = "pets"
+    private let deletePetEndpoint = "pets"
     static let shared = NetworkManager()
     
     func fetchPets(completion: @escaping ([Pet]?) -> Void){
@@ -29,6 +30,18 @@ class NetworkManager{
     
     func addPet(pet: Pet, completion: @escaping (Bool) -> Void){
         AF.request(baseURL + postPetEndpoint, method: .post, parameters: pet , encoder: JSONParameterEncoder.default).response{ response in
+            switch response.result{
+            case .success:
+                completion(true)
+            case .failure(let error):
+                print(error)
+                completion(false)
+            }
+        }
+    }
+    
+    func deletePet(petId: Int, completion: @escaping (Bool) -> Void){
+        AF.request("\(baseURL + deletePetEndpoint)/\(petId)", method: .delete).response{ response in
             switch response.result{
             case .success:
                 completion(true)

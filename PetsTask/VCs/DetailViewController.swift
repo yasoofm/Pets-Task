@@ -38,13 +38,19 @@ class DetailViewController: UIViewController {
     func setupUI(){
         view.backgroundColor = .white
         
-        nameLabel.text = pet?.name
+        nameLabel.text = "Name: \(pet?.name ?? "")"
         ageLabel.text = String(pet?.age ?? 0)
         adoptedLabel.text = "\(pet?.adopted ?? false)"
         genderLabel.text = pet?.gender
         
         imageview.kf.setImage(with: URL(string: pet?.image ?? ""))
         imageview.contentMode = .scaleToFill
+        imageview.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+        imageview.layer.shadowOffset = CGSize(width: 1, height: 9)
+        imageview.layer.shadowOpacity = 2
+        imageview.layer.shadowRadius = 9
+        imageview.layer.masksToBounds = false
+        imageview.layer.cornerRadius = 4
     }
     func setupLayout(){
         nameLabel.snp.makeConstraints { make in

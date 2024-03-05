@@ -23,15 +23,18 @@ class TableViewController: UITableViewController {
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: .init(systemName: "plus"), style: .plain, target: self, action: #selector(navButtonPress))
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: .init(systemName: "arrow.clockwise"), style: .plain, target: self, action: #selector(reloadButtonPress))
+        
+        refreshTable()
     }
     
     @objc func reloadButtonPress(){
         fetchPets()
         tableView.reloadData()
+        self.refreshControl?.endRefreshing()
     }
     
     @objc func navButtonPress(){
-        navigationController?.pushViewController(AddPetViewController(), animated: true)
+        navigationController?.pushViewController(EurekaAddPetViewController(), animated: true)
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,6 +52,27 @@ class TableViewController: UITableViewController {
         let detailVC = DetailViewController()
         detailVC.pet = pets[indexPath.row]
         navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            let pet = pets[indexPath.row]
+            
+            NetworkManager.shared.deletePet(petId: pet.id ?? -1){[weak self] success in
+                DispatchQueue.main.async {
+                    if success{
+                        self?.pets.remove(at: indexPath.row)
+                        tableView.deleteRows(at: [indexPath], with: .fade)
+                    }
+                }
+            }
+        }
+    }
+    
+    func refreshTable(){
+        let refreshcontrol = UIRefreshControl()
+        refreshcontrol.addTarget(self, action: #selector(reloadButtonPress), for: .valueChanged)
+        tableView.refreshControl = refreshcontrol
     }
 }
 

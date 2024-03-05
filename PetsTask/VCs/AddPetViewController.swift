@@ -36,20 +36,24 @@ class AddPetViewController: UIViewController {
         view.backgroundColor = .white
         
         nameTextField.placeholder = "name"
-        nameTextField.borderStyle = .line
-        nameTextField.layer.cornerRadius = 10
+        nameTextField.layer.borderWidth = 1
+        nameTextField.layer.cornerRadius = 5
+        nameTextField.borderStyle = .roundedRect
         
         ageTextField.placeholder = "age"
-        ageTextField.borderStyle = .line
-        ageTextField.layer.cornerRadius = 10
+        ageTextField.layer.borderWidth = 1
+        ageTextField.layer.cornerRadius = 5
+        ageTextField.borderStyle = .roundedRect
         
         genderTextField.placeholder = "gender"
-        genderTextField.borderStyle = .line
-        genderTextField.layer.cornerRadius = 10
+        genderTextField.layer.borderWidth = 1
+        genderTextField.layer.cornerRadius = 5
+        genderTextField.borderStyle = .roundedRect
         
         imageTextField.placeholder = "image"
-        imageTextField.borderStyle = .line
-        imageTextField.layer.cornerRadius = 10
+        imageTextField.layer.borderWidth = 1
+        imageTextField.layer.cornerRadius = 5
+        imageTextField.borderStyle = .roundedRect
         
         sendButton.setTitle("Send", for: .normal)
         sendButton.layer.cornerRadius = 10
